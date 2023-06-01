@@ -1,13 +1,72 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+.moviesSection{
+  padding: 2rem 0rem !important;
+}
+.cardSection{
+  padding: 2rem 3rem !important;
+}
+.card{
+  min-width: fit-content !important;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.spanheading{
+  font-weight: 700;
+}
+.star-icon-style {
+  color: rgb(255, 174, 0);
+  display: flex;
+  gap: 1rem;
+}
+.star-icon-style p {
+  color: black;
+}
+.movieLink{
+  text-decoration: none;
+  color: black;
+}
+.movieLink:hover{
+  color: blue;
+}
+.movie-data{
+  display: flex;
+  flex-direction: column;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.movieInfoSection{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+.movie-img-and-data{
+  display: flex;
+  align-items: center;
+}
+
+.formSection{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.form{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form input{
+  margin: 0.5rem;
+  padding-left: 1rem;
+  min-width: 40% !important;
 }
